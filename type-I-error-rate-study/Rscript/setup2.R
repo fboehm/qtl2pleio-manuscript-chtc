@@ -1,0 +1,1 @@
+../../power-study/Rscript/setup2.R
