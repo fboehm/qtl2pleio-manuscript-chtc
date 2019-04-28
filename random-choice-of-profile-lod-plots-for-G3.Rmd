@@ -1,0 +1,16 @@
+---
+title: "Randomly choose 9 profile LOD plots to add as supplemental figure"
+author: "Frederick Boehm"
+date: "4/25/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+set.seed(8675309)
+(sample(0:399, 9) -> plot_nums)
+```
+
